@@ -1,0 +1,6 @@
+resources: [../../base]
+namespace: smartapp-staging
+replicas:
+- { name: web, count: 2 }
+images:
+- { name: web, newName: stefanprodan/podinfo, newTag: "6.13.0" }
