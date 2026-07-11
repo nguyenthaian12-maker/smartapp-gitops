@@ -4,7 +4,7 @@ metadata: { name: smartapp-staging, namespace: argocd }
 spec:
   project: default
   source:
-    repoURL: https://github.com/<YOUR-USER>/smartapp-gitops.git   # ĐỔI thành fork của bạn
+    repoURL: https://github.com/nguyenthaian12-maker/smartapp-gitops.git   # ĐỔI thành fork của bạn
     path: overlays/staging
     targetRevision: main        # hoặc dùng tag: v1 (cũ) -> v2 (mới)
   destination:
